@@ -1,0 +1,18 @@
+[project]
+name = "chronos"
+version = "0.1.0"
+description = "日常记录 · 工作流优化 · 实验追踪"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "PySide6>=6.8",
+]
+
+[tool.uv]
+package = false
+
+# 使用清华镜像作为默认源(pypi.org 在本机不可达)
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local application data
+data/*.db
+data/*.db-*
+data/*.sqlite
+data/*.sqlite-*
+
+# Generated screenshots and temporary files
+shots/
+temp.txt
+*.log
+
+# Local editor and assistant settings
+.vscode/
+.idea/
+.claude/
+
+# OS metadata
+.DS_Store
+Thumbs.db
